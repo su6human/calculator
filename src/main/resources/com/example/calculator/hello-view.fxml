@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="361.0" prefWidth="315.0" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.calculator.HelloController">
+   <children>
+      <Button fx:id="buttonseven" layoutX="33.0" layoutY="91.0" mnemonicParsing="false" onAction="#buttonseven" text="7">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="buttoneight" layoutX="101.0" layoutY="91.0" mnemonicParsing="false" onAction="#buttoneight" text="8">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="buttonnine" layoutX="167.0" layoutY="91.0" mnemonicParsing="false" onAction="#buttonnine" text="9">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="buttonfour" layoutX="33.0" layoutY="150.0" mnemonicParsing="false" onAction="#buttonfour" text="4">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="buttonfive" layoutX="101.0" layoutY="150.0" mnemonicParsing="false" onAction="#buttonfive" text="5">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="buttonsix" layoutX="167.0" layoutY="150.0" mnemonicParsing="false" onAction="#buttonsix" text="6">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="buttonone" layoutX="33.0" layoutY="209.0" mnemonicParsing="false" onAction="#buttonone" text="1">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="buttontwo" layoutX="101.0" layoutY="209.0" mnemonicParsing="false" onAction="#buttontwo" text="2">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="buttonthree" layoutX="167.0" layoutY="209.0" mnemonicParsing="false" onAction="#buttonthree" text="3">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="buttonzero" layoutX="32.0" layoutY="268.0" mnemonicParsing="false" onAction="#buttonzero" prefHeight="51.0" prefWidth="117.0" text="0">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Button>
+      <Button fx:id="buttonminus" layoutX="238.0" layoutY="150.0" mnemonicParsing="false" onAction="#buttonminus" prefHeight="51.0" prefWidth="48.0" text="-">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="buttondiv" layoutX="238.0" layoutY="209.0" mnemonicParsing="false" onAction="#buttondiv" prefHeight="51.0" prefWidth="48.0" text="/">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="buttonmulti" layoutX="238.0" layoutY="268.0" mnemonicParsing="false" onAction="#buttonmulti" prefHeight="51.0" prefWidth="48.0" text="*">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="buttonequals" layoutX="175.0" layoutY="268.0" mnemonicParsing="false" onAction="#buttonequals" prefHeight="51.0" prefWidth="45.0" text="=">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <TextField fx:id="Resulttxt" layoutX="22.0" layoutY="28.0" prefHeight="25.0" prefWidth="216.0" />
+      <Button fx:id="buttonplus" layoutX="238.0" layoutY="91.0" mnemonicParsing="false" onAction="#buttonplus" prefHeight="51.0" prefWidth="48.0" text="+">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Button>
+      <Button fx:id="buttonclear" layoutX="241.0" layoutY="28.0" mnemonicParsing="false" onAction="#buttonclear" text="clear" />
+   </children>
+</AnchorPane>
